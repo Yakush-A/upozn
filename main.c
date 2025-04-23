@@ -4,6 +4,7 @@ int main(void)
 {
     char option = 'h';
 
+    
     while(1)
     {
         option = getchar();
@@ -17,4 +18,5 @@ int main(void)
             break;
         }
     }
+    return 0;
 }
